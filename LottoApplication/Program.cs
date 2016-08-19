@@ -10,6 +10,9 @@ namespace LottoApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Välkommen till Lotto");
+            var LottoApplication = new LottoApplication();
+            Console.ReadLine();
         }
     }
 }
